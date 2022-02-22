@@ -4,9 +4,9 @@ using System.ComponentModel;
 using System.IO;
 using System.Runtime.CompilerServices;
 
-using CSStarter.DataOps;
+using CsStarter.DataOps;
 
-namespace CSStarter.UI
+namespace CsStarter.UI
 {
     /// <summary>
     /// Represents the data imported from a .csv file.

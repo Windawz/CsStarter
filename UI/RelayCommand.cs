@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace CSStarter.UI
+namespace CsStarter.UI
 {
     internal class RelayCommand : ICommand
     {
