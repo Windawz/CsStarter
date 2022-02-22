@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace CSStarterTest1.Tester.Stages
+namespace CSStarter.Tester.Stages
 {
     internal abstract class Stage<TIn, TOut> : IStage<TIn, TOut>
     {

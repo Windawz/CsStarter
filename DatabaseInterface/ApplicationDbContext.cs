@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-using CSStarterTest1.DataOps;
+using CSStarter.DataOps;
 using Microsoft.Data.SqlClient;
 using System;
 

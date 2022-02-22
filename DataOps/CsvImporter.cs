@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace CSStarterTest1.DataOps
+namespace CSStarter.DataOps
 {
     public class CsvImporter : IImporter
     {

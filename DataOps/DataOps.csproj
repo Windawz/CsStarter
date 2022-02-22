@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <AssemblyName>DataOps</AssemblyName>
-    <RootNamespace>CSStarterTest1.DataOps</RootNamespace>
+    <RootNamespace>CSStarter.DataOps</RootNamespace>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 

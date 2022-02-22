@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CSStarterTest1.DataOps
+namespace CSStarter.DataOps
 {
     /// <summary>
     /// Represents the most complete piece of data.

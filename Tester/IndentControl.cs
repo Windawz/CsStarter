@@ -2,7 +2,7 @@
 using System.CodeDom.Compiler;
 using System.IO;
 
-namespace CSStarterTest1.Tester
+namespace CSStarter.Tester
 {
     internal class IndentControl
     {

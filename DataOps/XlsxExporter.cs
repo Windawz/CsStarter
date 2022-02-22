@@ -6,7 +6,7 @@ using System.Reflection;
 
 using E = Microsoft.Office.Interop.Excel;
 
-namespace CSStarterTest1.DataOps
+namespace CSStarter.DataOps
 {
     public class XlsxExporter : IExporter
     {

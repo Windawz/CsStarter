@@ -1,5 +1,5 @@
 ﻿
-namespace CSStarterTest1.Tester
+namespace CSStarter.Tester
 {
     internal enum ConsoleOutput
     {

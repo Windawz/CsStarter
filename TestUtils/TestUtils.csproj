@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>CSStarterTest1.TestUtils</RootNamespace>
+    <RootNamespace>CSStarter.TestUtils</RootNamespace>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 

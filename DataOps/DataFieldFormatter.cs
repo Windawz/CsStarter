@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace CSStarterTest1.DataOps
+namespace CSStarter.DataOps
 {
     internal class DataFieldFormatter
     {

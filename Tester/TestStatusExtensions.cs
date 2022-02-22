@@ -1,8 +1,8 @@
 ﻿using System;
 
-using CSStarterTest1.TestUtils;
+using CSStarter.TestUtils;
 
-namespace CSStarterTest1.Tester
+namespace CSStarter.Tester
 {
     internal static class TestStatusExtensions
     {

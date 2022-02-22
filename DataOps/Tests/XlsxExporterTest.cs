@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
 
-using CSStarterTest1.TestUtils;
+using CSStarter.TestUtils;
 
-namespace CSStarterTest1.DataOps.Tests
+namespace CSStarter.DataOps.Tests
 {
     public class XlsxExporterTest : Test
     {

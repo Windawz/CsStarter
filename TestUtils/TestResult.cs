@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace CSStarterTest1.TestUtils
+namespace CSStarter.TestUtils
 {
     public class TestResult
     {

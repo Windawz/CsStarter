@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CSStarterTest1.Tester
+namespace CSStarter.Tester
 {
     public sealed class Program
     {

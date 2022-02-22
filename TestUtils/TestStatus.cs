@@ -1,4 +1,4 @@
-﻿namespace CSStarterTest1.TestUtils
+﻿namespace CSStarter.TestUtils
 {
     public enum TestStatus
     {

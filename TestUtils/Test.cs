@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace CSStarterTest1.TestUtils
+namespace CSStarter.TestUtils
 {
     public abstract class Test : IDisposable
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace CSStarterTest1.Tester
+namespace CSStarter.Tester
 {
     /// <summary>
     /// Takes the specified console output, copies the writer and keeps it.

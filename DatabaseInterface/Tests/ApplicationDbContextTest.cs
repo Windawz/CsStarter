@@ -2,8 +2,8 @@
 using System.IO;
 using System.Linq;
 
-using CSStarterTest1.DataOps;
-using CSStarterTest1.TestUtils;
+using CSStarter.DataOps;
+using CSStarter.TestUtils;
 
 using Microsoft.Data.SqlClient;
 

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-using CSStarterTest1.TestUtils;
+using CSStarter.TestUtils;
 
-namespace CSStarterTest1.Tester.Stages.ConcreteStages
+namespace CSStarter.Tester.Stages.ConcreteStages
 {
     internal class InstantiateTestsStage : Stage<TestType, Test>
     {

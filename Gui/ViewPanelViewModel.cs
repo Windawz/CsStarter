@@ -6,9 +6,9 @@ using System.Runtime.CompilerServices;
 using System.Windows.Controls;
 using System.Windows.Input;
 
-using CSStarterTest1.DataOps;
+using CSStarter.DataOps;
 
-namespace CSStarterTest1.UI
+namespace CSStarter.UI
 {
     internal abstract class ViewPanelViewModel<TData>
     {

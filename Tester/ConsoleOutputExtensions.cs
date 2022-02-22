@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace CSStarterTest1.Tester
+namespace CSStarter.Tester
 {
     internal static class ConsoleOutputExtensions
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace CSStarterTest1.DataOps
+namespace CSStarter.DataOps
 {
     internal class DataFieldParser
     {

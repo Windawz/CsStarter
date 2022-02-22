@@ -2,7 +2,7 @@
 using System.IO;
 using System.Text;
 
-namespace CSStarterTest1.Tester
+namespace CSStarter.Tester
 {
     internal class LoggerProvider
     {
