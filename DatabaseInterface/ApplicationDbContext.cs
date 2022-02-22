@@ -4,7 +4,8 @@ using CSStarter.DataOps;
 using Microsoft.Data.SqlClient;
 using System;
 
-namespace DatabaseInterface {
+namespace CSStarter.DB
+{
     public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(string connectionString)

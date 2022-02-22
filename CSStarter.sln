@@ -16,7 +16,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestUtils", "TestUtils\Test
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UI", "Gui\UI.csproj", "{C07E062E-4398-478A-B126-9DD10F41D42D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseInterface", "DatabaseInterface\DatabaseInterface.csproj", "{91724688-B69A-48E7-9B34-595CD084E520}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DB", "DatabaseInterface\DB.csproj", "{91724688-B69A-48E7-9B34-595CD084E520}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -7,7 +7,7 @@ using CSStarter.TestUtils;
 
 using Microsoft.Data.SqlClient;
 
-namespace DatabaseInterface.Tests
+namespace CSStarter.DB.Tests
 {
     public class ApplicationDbContextTest : Test
     {

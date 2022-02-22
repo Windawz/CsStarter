@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DatabaseInterface\DatabaseInterface.csproj" />
+    <ProjectReference Include="..\DatabaseInterface\DB.csproj" />
     <ProjectReference Include="..\DataOps\DataOps.csproj" />
     <ProjectReference Include="..\TestUtils\TestUtils.csproj" />
   </ItemGroup>
