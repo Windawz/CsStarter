@@ -8,7 +8,7 @@ namespace CSStarter.Tester
         {
             string[] testedAssemblies =
             {
-                "DatabaseInterface",
+                "DB",
                 "DataOps",
             };
             using var app = new Application(testedAssemblies);
