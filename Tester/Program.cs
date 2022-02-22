@@ -8,8 +8,8 @@ namespace CSStarter.Tester
         {
             string[] testedAssemblies =
             {
-                "DB",
-                "DataOps",
+                $"{nameof(CSStarter)}.{nameof(DB)}",
+                $"{nameof(CSStarter)}.{nameof(DataOps)}",
             };
             using var app = new Application(testedAssemblies);
             app.Run();
