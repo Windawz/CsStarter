@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>CSStarter.TestUtils</AssemblyName>
     <RootNamespace>CSStarter.TestUtils</RootNamespace>
     <Nullable>enable</Nullable>
   </PropertyGroup>
