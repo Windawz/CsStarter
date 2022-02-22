@@ -4,7 +4,7 @@ using System.Linq;
 using System.Xml;
 using System.Xml.Linq;
 
-namespace CsStarter.DataOps
+namespace CsStarter.Data
 {
     public class XmlExporter : IExporter
     {

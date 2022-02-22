@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace CsStarter.DataOps
+namespace CsStarter.Data
 {
     internal class DataFieldParser
     {

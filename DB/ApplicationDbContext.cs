@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-using CsStarter.DataOps;
+using CsStarter.Data;
 using Microsoft.Data.SqlClient;
 using System;
 

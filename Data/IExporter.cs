@@ -1,4 +1,4 @@
-﻿namespace CsStarter.DataOps
+﻿namespace CsStarter.Data
 {
     public interface IExporter
     {

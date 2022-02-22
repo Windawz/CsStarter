@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <AssemblyName>CsStarter.DataOps</AssemblyName>
-    <RootNamespace>CsStarter.DataOps</RootNamespace>
+    <AssemblyName>CsStarter.Data</AssemblyName>
+    <RootNamespace>CsStarter.Data</RootNamespace>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 

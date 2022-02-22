@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CsStarter.DataOps
+namespace CsStarter.Data
 {
     /// <summary>
     /// Parses .csv strings into data records

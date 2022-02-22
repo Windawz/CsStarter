@@ -9,7 +9,7 @@ namespace CsStarter.Tester
             string[] testedAssemblies =
             {
                 $"{nameof(CsStarter)}.{nameof(DB)}",
-                $"{nameof(CsStarter)}.{nameof(DataOps)}",
+                $"{nameof(CsStarter)}.{nameof(Data)}",
             };
             using var app = new Application(testedAssemblies);
             app.Run();

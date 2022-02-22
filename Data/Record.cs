@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CsStarter.DataOps
+namespace CsStarter.Data
 {
     /// <summary>
     /// Represents the most complete piece of data.

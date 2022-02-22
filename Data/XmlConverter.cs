@@ -3,7 +3,7 @@ using System.Linq;
 using System.Xml;
 using System.Xml.Linq;
 
-namespace CsStarter.DataOps
+namespace CsStarter.Data
 {
     /// <summary>
     /// Converts data records to XElements.

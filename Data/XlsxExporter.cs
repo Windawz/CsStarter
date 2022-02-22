@@ -6,7 +6,7 @@ using System.Reflection;
 
 using E = Microsoft.Office.Interop.Excel;
 
-namespace CsStarter.DataOps
+namespace CsStarter.Data
 {
     public class XlsxExporter : IExporter
     {

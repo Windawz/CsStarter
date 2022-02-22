@@ -2,7 +2,7 @@
 using System.IO;
 using System.Linq;
 
-using CsStarter.DataOps;
+using CsStarter.Data;
 using CsStarter.TestUtils;
 
 using Microsoft.Data.SqlClient;

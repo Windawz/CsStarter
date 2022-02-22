@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace CsStarter.DataOps
+namespace CsStarter.Data
 {
     internal class RecordFieldFormatter
     {
