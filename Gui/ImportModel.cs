@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 
 using CSStarterTest1.DataOps;
 
-namespace CSStarterTest1.Gui
+namespace CSStarterTest1.UI
 {
     /// <summary>
     /// Represents the data imported from a .csv file.

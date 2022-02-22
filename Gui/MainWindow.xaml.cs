@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace CSStarterTest1.Gui
+namespace CSStarterTest1.UI
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

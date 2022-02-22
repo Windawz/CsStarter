@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace CSStarterTest1.Gui {
+namespace CSStarterTest1.UI {
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>

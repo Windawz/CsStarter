@@ -8,7 +8,7 @@ using System.Windows.Input;
 
 using CSStarterTest1.DataOps;
 
-namespace CSStarterTest1.Gui
+namespace CSStarterTest1.UI
 {
     internal abstract class ViewPanelViewModel<TData>
     {
