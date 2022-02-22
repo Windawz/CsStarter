@@ -3,9 +3,9 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 
-using CSStarter.TestUtils;
+using CsStarter.TestUtils;
 
-namespace CSStarter.Tester
+namespace CsStarter.Tester
 {
     internal class TestType
     {

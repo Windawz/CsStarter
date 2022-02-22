@@ -1,4 +1,4 @@
-﻿namespace CSStarter.DataOps
+﻿namespace CsStarter.DataOps
 {
     public interface IExporter
     {

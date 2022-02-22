@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CSStarter.Tester.Stages
+namespace CsStarter.Tester.Stages
 {
     internal interface IStage<in TIn, out TOut> : IStage
     {

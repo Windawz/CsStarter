@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Linq;
 
-using CSStarter.TestUtils;
+using CsStarter.TestUtils;
 
-namespace CSStarter.Tester
+namespace CsStarter.Tester
 {
     /// <summary>
     /// Looks for test types in the assemblies referenced by the calling assembly.

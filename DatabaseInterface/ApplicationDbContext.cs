@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-using CSStarter.DataOps;
+using CsStarter.DataOps;
 using Microsoft.Data.SqlClient;
 using System;
 
-namespace CSStarter.DB
+namespace CsStarter.DB
 {
     public class ApplicationDbContext : DbContext
     {

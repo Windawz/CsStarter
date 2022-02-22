@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 
-namespace CSStarter.Tester
+namespace CsStarter.Tester
 {
     internal static class AssemblyLoader
     {

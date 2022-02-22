@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
 
-using CSStarter.TestUtils;
+using CsStarter.TestUtils;
 
-namespace CSStarter.DataOps.Tests
+namespace CsStarter.DataOps.Tests
 {
     public class XmlExporterTest : Test
     {

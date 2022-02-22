@@ -2,7 +2,7 @@
 using System.CodeDom.Compiler;
 using System.IO;
 
-namespace CSStarter.Tester
+namespace CsStarter.Tester
 {
     internal partial class Application
     {

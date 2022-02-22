@@ -6,11 +6,11 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 
-using CSStarter.Tester.Stages;
-using CSStarter.Tester.Stages.ConcreteStages;
-using CSStarter.TestUtils;
+using CsStarter.Tester.Stages;
+using CsStarter.Tester.Stages.ConcreteStages;
+using CsStarter.TestUtils;
 
-namespace CSStarter.Tester
+namespace CsStarter.Tester
 {
     internal partial class Application : IDisposable
     {

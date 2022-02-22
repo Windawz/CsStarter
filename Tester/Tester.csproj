@@ -3,8 +3,8 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
-    <AssemblyName>CSStarter.Tester</AssemblyName>
-    <RootNamespace>CSStarter.Tester</RootNamespace>
+    <AssemblyName>CsStarter.Tester</AssemblyName>
+    <RootNamespace>CsStarter.Tester</RootNamespace>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 

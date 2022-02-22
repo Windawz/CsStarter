@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSStarter.Tester.Stages
+namespace CsStarter.Tester.Stages
 {
     internal interface IStageOutput
     {

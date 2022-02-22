@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CSStarter.Tester.Stages
+namespace CsStarter.Tester.Stages
 {
     internal class StageProcessor<TIn, TOut>
     {

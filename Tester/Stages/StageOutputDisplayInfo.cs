@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace CSStarter.Tester.Stages
+namespace CsStarter.Tester.Stages
 {
     internal record StageOutputDisplayInfo(string Text = "", ConsoleColor Color = ConsoleColor.Gray);
 }

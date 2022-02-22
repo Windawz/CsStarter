@@ -1,5 +1,5 @@
 ﻿
-namespace CSStarter.Tester
+namespace CsStarter.Tester
 {
     internal struct Nothing
     {

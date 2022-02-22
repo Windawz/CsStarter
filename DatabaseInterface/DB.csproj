@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <AssemblyName>CSStarter.DB</AssemblyName>
-    <RootNamespace>CSStarter.DB</RootNamespace>
+    <AssemblyName>CsStarter.DB</AssemblyName>
+    <RootNamespace>CsStarter.DB</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

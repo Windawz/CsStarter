@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <AssemblyName>CSStarter.DataOps</AssemblyName>
-    <RootNamespace>CSStarter.DataOps</RootNamespace>
+    <AssemblyName>CsStarter.DataOps</AssemblyName>
+    <RootNamespace>CsStarter.DataOps</RootNamespace>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 

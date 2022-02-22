@@ -2,12 +2,12 @@
 using System.IO;
 using System.Linq;
 
-using CSStarter.DataOps;
-using CSStarter.TestUtils;
+using CsStarter.DataOps;
+using CsStarter.TestUtils;
 
 using Microsoft.Data.SqlClient;
 
-namespace CSStarter.DB.Tests
+namespace CsStarter.DB.Tests
 {
     public class ApplicationDbContextTest : Test
     {

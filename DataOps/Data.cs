@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CSStarter.DataOps
+namespace CsStarter.DataOps
 {
     /// <summary>
     /// Represents the most complete piece of data.

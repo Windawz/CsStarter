@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace CSStarter.Tester
+namespace CsStarter.Tester
 {
     internal sealed record AssemblyLoadInfo(AssemblyName Name, Assembly? LoadedAssembly);
 }

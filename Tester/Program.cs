@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CSStarter.Tester
+namespace CsStarter.Tester
 {
     public sealed class Program
     {
@@ -8,8 +8,8 @@ namespace CSStarter.Tester
         {
             string[] testedAssemblies =
             {
-                $"{nameof(CSStarter)}.{nameof(DB)}",
-                $"{nameof(CSStarter)}.{nameof(DataOps)}",
+                $"{nameof(CsStarter)}.{nameof(DB)}",
+                $"{nameof(CsStarter)}.{nameof(DataOps)}",
             };
             using var app = new Application(testedAssemblies);
             app.Run();

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSStarter.DataOps
+namespace CsStarter.DataOps
 {
     public interface IImporter
     {

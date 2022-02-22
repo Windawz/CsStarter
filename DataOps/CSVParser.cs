@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CSStarter.DataOps
+namespace CsStarter.DataOps
 {
     /// <summary>
     /// Parses .csv strings into data records

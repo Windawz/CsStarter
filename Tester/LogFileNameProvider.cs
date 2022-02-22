@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CSStarter.Tester
+namespace CsStarter.Tester
 {
     internal class LogFileNameProvider
     {

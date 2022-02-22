@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 
-using CSStarter.TestUtils;
+using CsStarter.TestUtils;
 
-namespace CSStarter.Tester.Stages.ConcreteStages
+namespace CsStarter.Tester.Stages.ConcreteStages
 {
     internal class PerformTestsAndGetStatusStage : Stage<Test, Nothing>
     {

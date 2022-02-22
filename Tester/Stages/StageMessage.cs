@@ -1,5 +1,5 @@
 ﻿
-namespace CSStarter.Tester.Stages
+namespace CsStarter.Tester.Stages
 {
     internal enum StageMessage
     {

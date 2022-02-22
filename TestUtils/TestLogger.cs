@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace CSStarter.TestUtils
+namespace CsStarter.TestUtils
 {
     public sealed class TestLogger : IDisposable
     {
