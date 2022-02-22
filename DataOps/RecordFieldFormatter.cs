@@ -3,7 +3,7 @@ using System;
 
 namespace CsStarter.DataOps
 {
-    internal class DataFieldFormatter
+    internal class RecordFieldFormatter
     {
         public string Format(object fieldValue)
         {

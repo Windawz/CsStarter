@@ -27,7 +27,7 @@ namespace CsStarter.DB.Tests
             using var context = new ApplicationDbContext(csb.ConnectionString);
             bool hadToCreate = context.Database.EnsureCreated();
 
-            var data = new Data
+            var data = new Record
             (
                 id: default,
                 date: DateTime.Now,
@@ -40,7 +40,7 @@ namespace CsStarter.DB.Tests
             context.Add(data);
             context.SaveChanges();
 
-            Data? readData = context.Datas.FirstOrDefault();
+            Record? readData = context.Records.FirstOrDefault();
             if (readData is null)
             {
                 testResult = new TestResult(TestStatus.Failure, $"{nameof(readData)} is null");
@@ -48,7 +48,7 @@ namespace CsStarter.DB.Tests
             else
             {
                 Logger.WriteLine("Successfully retrieved test data after adding.");
-                foreach (var prop in typeof(Data).GetProperties())
+                foreach (var prop in typeof(Record).GetProperties())
                 {
                     Logger.WriteLine($"{prop.Name}: \"{prop.GetValue(readData)!}\"");
                 }

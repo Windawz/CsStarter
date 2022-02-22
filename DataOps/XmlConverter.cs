@@ -38,7 +38,7 @@ namespace CsStarter.DataOps
         {
             var xElement = new XElement("Record");
 
-            var formatter = new DataFieldFormatter();
+            var formatter = new RecordFieldFormatter();
             var kvs = data
                 .GetType()
                 .GetProperties()
@@ -46,7 +46,7 @@ namespace CsStarter.DataOps
 
             foreach (var (key, value) in kvs)
             {
-                string idKeyName = nameof(Data.Id);
+                string idKeyName = nameof(Record.Id);
                 if (key == idKeyName && xElement.Attribute(idKeyName) is null)
                 {
                     xElement.Add(new XAttribute(idKeyName, value));

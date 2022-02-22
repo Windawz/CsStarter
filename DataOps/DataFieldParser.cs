@@ -7,7 +7,7 @@ namespace CsStarter.DataOps
     {
         public object Parse(string fieldValue, int fieldIndex)
         {
-            if (0 > fieldIndex || fieldIndex > Data.FieldCount)
+            if (0 > fieldIndex || fieldIndex > Record.FieldCount)
             {
                 throw new ArgumentOutOfRangeException(nameof(fieldIndex));
             }

@@ -8,17 +8,17 @@ namespace CsStarter.DataOps
     /// </summary>
     internal class CsvParser
     {
-        public Data[] Parse(string text)
+        public Record[] Parse(string text)
         {
             if (String.IsNullOrWhiteSpace(text))
             {
-                return Array.Empty<Data>();
+                return Array.Empty<Record>();
             }
             string[] lines = text.Split(Environment.NewLine, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
-            var datas = new List<Data>(lines.Length);
+            var datas = new List<Record>(lines.Length);
             foreach (string line in lines)
             {
-                Data? data = ParseLine(line);
+                Record? data = ParseLine(line);
                 if (data is not null)
                 {
                     datas.Add(data);
@@ -26,19 +26,19 @@ namespace CsStarter.DataOps
             }
             return datas.ToArray();
         }
-        private Data? ParseLine(string line)
+        private Record? ParseLine(string line)
         {
             string[] tokens = line.Split(';', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
-            if (tokens.Length < Data.FieldCount)
+            if (tokens.Length < Record.FieldCount)
             {
                 return null;
             }
 
-            Data data;
+            Record data;
             var parser = new DataFieldParser();
             try
             {
-                data = new Data(
+                data = new Record(
                     (int)parser.Parse(tokens[0], 0),
                     (DateTime)parser.Parse(tokens[1], 1),
                     (string)parser.Parse(tokens[2], 2),

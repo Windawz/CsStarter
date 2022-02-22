@@ -96,7 +96,7 @@ namespace CsStarter.DataOps
                 for (int i = 0; i < props.Length; i++)
                 {
                     object value = props[i].GetValue(data)!;
-                    string formatted = new DataFieldFormatter().Format(value);
+                    string formatted = new RecordFieldFormatter().Format(value);
 
                     _sheetCells[row, i + 1] = formatted;
                 }

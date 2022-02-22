@@ -5,11 +5,11 @@ namespace CsStarter.DataOps
     /// <summary>
     /// Represents the most complete piece of data.
     /// </summary>
-    public class Data
+    public class Record
     {
-        public static readonly int FieldCount = typeof(Data).GetProperties().Length;
+        public static readonly int FieldCount = typeof(Record).GetProperties().Length;
 
-        public Data(int id, DateTime date, string firstName, string lastName, string surName, string city, string country)
+        public Record(int id, DateTime date, string firstName, string lastName, string surName, string city, string country)
         {
             Id = id;
             Date = date;

@@ -34,7 +34,7 @@ namespace CsStarter.DB
         }
 
         public string ConnectionString { get; }
-        public DbSet<Data> Datas { get; set; } = null!; // To avoid nullable reference type warnings.
+        public DbSet<Record> Records { get; set; } = null!; // To avoid nullable reference type warnings.
                                                         // Won't actually be null.
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

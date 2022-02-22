@@ -11,7 +11,7 @@ namespace CsStarter.DataOps.Tests
 
         protected override TestResult PerformImpl()
         {
-            var data = new Data(1, DateTime.Now, "FirstName", "LastName", "SurName", "City", "Country");
+            var data = new Record(1, DateTime.Now, "FirstName", "LastName", "SurName", "City", "Country");
             new XmlExporter().Export(data, $"{Environment.GetFolderPath(Environment.SpecialFolder.Desktop)}{Path.DirectorySeparatorChar}testExcelFile");
 
             return new TestResult(TestStatus.Success);

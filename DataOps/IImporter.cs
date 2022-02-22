@@ -8,6 +8,6 @@ namespace CsStarter.DataOps
 {
     public interface IImporter
     {
-        Data[] Import(string path);
+        Record[] Import(string path);
     }
 }
