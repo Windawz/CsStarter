@@ -12,11 +12,13 @@ namespace CSStarter.DataOps
     {
         public XlsxExporter()
         {
+            #pragma warning disable CA1416
             // excel installed?
             if (Type.GetTypeFromProgID("Excel.Application") is null)
             {
                 throw new NotSupportedException("Excel installation not found");
             }
+            #pragma warning restore CA1416
         }
 
         public void Export(object? data, string path)
